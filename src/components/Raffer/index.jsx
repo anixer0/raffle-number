@@ -55,17 +55,17 @@ export default function Raffer() {
                     transition-colors"
                 
                 >
-                    Sortear
+                    Luck
                 </button>
             </form>
-            {!hangOn ? (
+            {!Winner? (
                 <p className="font-bold text-7xl flex justify-center items-center gap-5">
                     {result < 10 ? `0${result}` : result}
                 </p>
             ) : (
                 <p className="font-bold text-7xl flex justify-center items-center gap-5">
                     <FaSpinner className="animate-spin text-3xl" />
-                    <span className="text-3xl">Carregando...</span>
+                    <span className="text-3xl">Congratulations...</span>
                 </p>
             )}
         </div>
