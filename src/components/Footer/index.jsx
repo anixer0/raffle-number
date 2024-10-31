@@ -15,7 +15,7 @@ export default function Footer() {
                     className='text-red mx-2 md:cursor-pointer md:transition md:ease-in-out md:delay-150 md:bg-blue-500  md:hover:-translate-y-1 md:hover:scale-110 md:hover:bg-indigo-500 md:duration-300 '
                     onClick={() => setHeart(!heart)}  
                 /> 
-            )} por João Gabriel
+            )} by:AX
         </div>
     )
 }
